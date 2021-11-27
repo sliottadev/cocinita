@@ -1,5 +1,21 @@
 .Header{
+    display: flex;
+    flex: 0.3;
     height: 7vh;
     background-color: black;
     color: white;
+    justify-content: center;
+}
+
+.header__menuIcon{
+    height: 78% !important;
+    width: 8% !important;
+    margin-top: 5px;
+}
+
+.header__title{
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 2.5vh;
 }
