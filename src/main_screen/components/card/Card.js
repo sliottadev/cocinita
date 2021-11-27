@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Browser() {
+function Card() {
     return (
         <div>
-            
+            card component
         </div>
     )
 }
 
-export default Browser
+export default Card

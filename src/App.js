@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from "./header/Header.js"
+import MainScreen from './main_screen/MainScreen';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <MainScreen/>
     </div>
   );
 }
