@@ -1,7 +1,7 @@
-import React from 'react'
 import './Carde.css'
+import React from 'react'
 import {Card, Row, Col}  from 'react-bootstrap'
-import StarIcon from '@material-ui/icons/Star'
+import { RatingView } from 'react-simple-star-rating'
 
 function Carde() {
     return (
@@ -10,18 +10,14 @@ function Carde() {
             <div>
                 <Row>
                     <Col xs={7}>
-                        <Card.Title>Bifecitos a la Portuguesa</Card.Title>                        
+                        <Card.Title >Bifecitos a la Portuguesa</Card.Title>                        
                     </Col>
                     <Col xs={5}>
-                       <StarIcon/>   
-                       <StarIcon/>
-                       <StarIcon/>
-                       <StarIcon/>
-                       <StarIcon/>
+                        <RatingView ratingValue={2} size={23}/* RatingView Props */ />
                     </Col>
                 </Row>
                 <Row>
-                    <Card.Img variant="top" src="https://www.targethost.com.br/site/wp-content/uploads/2019/03/homem-negro-programando-computador.jpg" />
+                    <Card.Img variant="top" src="https://www.fiadown.org/wp-content/uploads/2018/07/20180302-FIADOWN-Las-redes-sociales-se-vuelcan-con-el-brasile%C3%B1o-Matheus-Gabrieli-para-dar-a-conocer-su-negocio.jpeg" />
                 </Row>                
             </div>
         </Card.Body>

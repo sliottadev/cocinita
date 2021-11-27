@@ -19,3 +19,9 @@
     font-size: medium;
     background-color: transparent;
 }
+
+.btn-primary{
+    background-color: whitesmoke!important;
+    border-color: whitesmoke!important;
+    color: black!important;
+}

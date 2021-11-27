@@ -15,7 +15,6 @@ function MainScreen() {
                 <Carde />
                 <Carde />
             </div>
-
         </div>
     )
 }
