@@ -1,0 +1,12 @@
+.mainScreen__cardContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.mainScreen__carde{
+    margin-bottom: 2em;
+}
