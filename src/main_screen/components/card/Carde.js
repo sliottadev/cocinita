@@ -22,20 +22,6 @@ function Carde() {
             </div>
         </Card.Body>
         </Card>        
-        // <Card className="carde__card">
-        // <Card.Body>
-        //     <div>
-        //         <Row>
-        //             <Col xs={4}>
-        //                 <Card.Img variant="top" src="https://www.targethost.com.br/site/wp-content/uploads/2019/03/homem-negro-programando-computador.jpg" />
-        //             </Col>
-        //             <Col xs={8}>
-        //                 <Card.Title>Bifecitos a la Portuguesa</Card.Title>
-        //             </Col>
-        //         </Row>
-        //     </div>
-        // </Card.Body>
-        // </Card>
     )
 }
 
