@@ -14,7 +14,7 @@ function App() {
         </Link> */}
         <Routes>
           <Route path="/" element={<ListScreen/>} />
-          <Route path="recetas" element={<MainScreen/>} />
+          <Route path="mogos" element={<MainScreen/>} />
         </Routes>       
       </div>
     </BrowserRouter>

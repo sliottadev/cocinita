@@ -8,9 +8,10 @@ function ListScreen() {
     return (
         <div className='list_screen'>
             <Header className="listScreen__header"/>
-            <Buttons/>
-            <ListProducts/>
-            <h1>TEST</h1>
+            <div className='listScreen__list'>                 
+                <Buttons/>
+                <ListProducts/>
+            </div>
         </div>
     )
 }

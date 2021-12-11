@@ -1,0 +1,12 @@
+.list_products{
+    width: '100%';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MuiDataGrid-panelContent{
+    background-color: red !important;
+    color: red!important;
+}
