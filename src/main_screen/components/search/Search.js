@@ -10,7 +10,7 @@ function Search() {
         <div className="search">
             <SearchIcon />
             <input className="search__input" placeholder="Search..." type="text"/>
-            <DropdownButton className="search__filter" id="dropdown-basic-button" >
+            <DropdownButton className="search__filter" id="dropdown-basic-button" title="">
                 <Dropdown.Item disabled> &emsp;&emsp;Dificultad </Dropdown.Item>
                 <Dropdown.Item href="#/action-1"> <RatingView ratingValue={1} size={25}/> </Dropdown.Item>
                 <Dropdown.Item href="#/action-2"> <RatingView ratingValue={2} size={25}/> </Dropdown.Item>
