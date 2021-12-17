@@ -5,6 +5,7 @@ import ListProducts from './components/list/ListProducts'
 import './ListScreen.css'
 
 function ListScreen() {
+    
     return (
         <div className='list_screen'>
             <Header className="listScreen__header"/>

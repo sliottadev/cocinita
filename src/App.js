@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import MainScreen from './main_screen/MainScreen';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ListScreen from './list_screen/ListScreen';
+import DetailsScreen from './details_screen/DetailsScreen'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
           to={`/recetas`}> RECETAS
         </Link> */}
         <Routes>
-          <Route path="/" element={<ListScreen/>} />
+          <Route path="/" element={<DetailsScreen/>}/>
+          <Route path="lista" element={<ListScreen/>} />
           <Route path="mogos" element={<MainScreen/>} />
         </Routes>       
       </div>

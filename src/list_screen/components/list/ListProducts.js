@@ -1,8 +1,6 @@
 import * as React from 'react';
-import { DataGrid, GridRowsProp, GridColDef} from '@mui/x-data-grid';
+import { DataGrid} from '@mui/x-data-grid';
 import './ListProducts.css'
-import { red } from '@mui/material/colors';
-import { Checkbox } from '@mui/material';
 
 function ListProducts() {
     return (        
@@ -20,8 +18,21 @@ function ListProducts() {
                     width:'100%'
                 }}
             />
+            <button onClick={borrar}>borrar</button>
         </div>
     )
+}
+
+ const borrar = ()=>{
+    //apiRef.current.updateRows([{ id: 1, _action: 'delete' }]);
+    // var deleted = document.getElementsByClassName("Mui-selected");
+    // console.log("pija")
+    // console.log(deleted)
+
+    // for (let i=0; i < deleted.length; i++){
+    //     console.log(deleted[i])
+    //     deleted[i].style.display="none"
+    // }
 }
 
 const columns = [
@@ -40,10 +51,10 @@ const columns = [
   ];
   
   const rows = [
-    { id:1, producto: 'Producto 1', cantidad: 'x'+'5'},
-    { id:2, producto: 'Producto 2', cantidad: 'x'+'2'},
-    { id:3, producto: 'Producto 3', cantidad: 'x'+'5'},
-    { id:4, producto: 'Producto 4', cantidad: 'x'+'8'}
+    { id:1, producto: 'Producto 1', cantidad: 'x5'},
+    { id:2, producto: 'Producto 2', cantidad: 'x2'},
+    { id:3, producto: 'Producto 3', cantidad: 'x5'},
+    { id:4, producto: 'Producto 4', cantidad: 'x8'}
   ];
 
 export default ListProducts

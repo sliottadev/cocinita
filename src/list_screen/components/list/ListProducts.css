@@ -6,7 +6,10 @@
     justify-content: space-around;
 }
 
-.MuiDataGrid-panelContent{
+.tachado{
     background-color: red !important;
-    color: red!important;
+}
+
+.Mui-selected .MuiDataGrid-cell--textLeft{
+    text-decoration: line-through;
 }
